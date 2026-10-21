@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Konfigurasi Halaman
-st.set_page_config(page_title="TEPAK Neraca - BPS Sumut", page_icon="🏛️", layout="centered")
+st.set_page_config(page_title="Satu Link Data Neraca - BPS Sumatera Utara", page_icon="🏛️", layout="centered")
 
 # Header & Deskripsi
 st.markdown("<h1 style='text-align: center; color: #F26522;'>🏛️ TEPAK Neraca</h1>", unsafe_allow_html=True)
