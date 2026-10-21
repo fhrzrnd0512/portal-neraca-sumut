@@ -44,7 +44,7 @@ with col9:
 st.markdown("<br>", unsafe_allow_html=True)
 
 # KATEGORI 4: Ambil Data Siasati Transportasi
-st.subheader("🕷️ Ambil Data SIASATI Kemenhub")
+st.subheader("💻 Ambil Data SIASATI Kemenhub")
 col10, col11 = st.columns(2)
 with col10:
     st.link_button("🌐 Scraping Umum", "https://siasati-terpadu-sumut.streamlit.app/", use_container_width=True)
