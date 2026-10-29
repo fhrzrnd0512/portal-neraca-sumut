@@ -37,7 +37,7 @@ col7, col8, col9 = st.columns(3)
 with col7:
     st.link_button("📰 Sentimen Berita", "https://dashboard-berita-sumut.streamlit.app/", use_container_width=True)
 with col8:
-    st.link_button("📝 Kompilasi Fenomena", "https://script.google.com/macros/s/AKfycbzwHxcHfaqMcFCWAjBQONnyjssEPUYF2GIpnjmRrJjlNSUQJ1ZwluPjPcdAreaSEUQD/exec?authuser=0", use_container_width=True)
+    st.link_button("📝 Kompilasi Fenomena", "https://script.google.com/macros/s/AKfycbxuzFqWIJmIrt_LuGSAJoG1hCWwlDMCjQWW6FvKwZvp71IuGDqo2lbxgm5itO-Cjt7e/exec", use_container_width=True)
 with col9:
     st.link_button("👥 Aktivitas Neraca", "https://sites.google.com/view/aktivitas-neraca1200", use_container_width=True)
 
