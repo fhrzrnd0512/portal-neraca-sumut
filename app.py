@@ -44,12 +44,14 @@ with col9:
 st.markdown("<br>", unsafe_allow_html=True)
 
 # KATEGORI 4: Ambil Data Siasati Transportasi
-st.subheader("💻 Ambil Data SIASATI Kemenhub")
+st.subheader("💻 Ambil Data SIASATI Kemenhub dan Visualisasi PDRB")
 col10, col11 = st.columns(2)
 with col10:
     st.link_button("🌐 Scraping Umum", "https://siasati-terpadu-sumut.streamlit.app/", use_container_width=True)
 with col11:
     st.link_button("⛴️ Scraping ASDP", "https://siasati-asdp-sumut.streamlit.app/", use_container_width=True)
+with col12:
+    st.link_button("📊 Visualisasi PDRB Sumut", "https://fhrzrnd-visualisasi-pdrb.share.connect.posit.cloud/", use_container_width=True)
 
 st.divider()
 st.markdown("<p style='text-align: center; font-size: 13px; color: #888;'>© 2026 Tim Neraca BPS Provinsi Sumatera Utara</p>", unsafe_allow_html=True)
